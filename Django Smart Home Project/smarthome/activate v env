@@ -1,0 +1,4 @@
+pipenv shell
+python3 manage.py makemigrations smarthome  
+python3 manage.py migrate
+python3 manage.py shell
